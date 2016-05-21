@@ -1,0 +1,8 @@
+Implementação do PC pronta:
+O PC guarda um valor de 8 bits que pode ser substituído por outro valor (Address
+no logisim) ou incrementado. Usei os mesmos nomes que no site pra vocês entenderem
+melhor mas acho bom trocar antes de entregar o trabalho.
+pcsel - seleciona quem vai ser o novo valor do PC quando ele é atualizado.
+pcload - decide se PC vai ser atualizado ou não.
+O circuito pode ser testado usando os inputs e apertando control-T (faz um passo
+do clock), control-R reseta para o estado inicial.
