@@ -1,4 +1,4 @@
-## MAC0329
+# MAC0329
 Computador de 16 bits no Logisim  
 Victor Aliende da Matta          9298145  
 Daniel Alves Rodrigues           9298083  
@@ -18,7 +18,7 @@ store-ram - habilita que a instrução escreva alguma coisa na RAM.
 load-ram - habilita que a instrução leia alguma coisa da RAm.  
 store-acc - habilita que a instrução escreva alguma coisa no acumulador.  
 
-# Conjunto de instruções:
+## Conjunto de instruções:
 
 11 0x0B {LDA} XX    `[XX] -> Acc`  
 12 0x0C {STA} XX    `[Acc] -> XX`  
