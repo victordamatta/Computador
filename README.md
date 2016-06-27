@@ -1,11 +1,11 @@
-## MAC0329
-# Computador de 16 bits no Logisim  
+# MAC0329
+## Computador de 16 bits no Logisim  
 Victor Aliende da Matta          9298145  
 Daniel Alves Rodrigues           9298083  
 Andre Victor dos Santos Nakazawa 9298336  
 Victor Domiciano Mendonca        8641963  
 
-# O computador possui 9 módulos:
+### O computador possui 9 módulos:
 RAM - módulo principal do computador, armazena o programa a ser executado, assim
 como os dados.  
   
@@ -30,12 +30,12 @@ IO - Pinos de input e output.
 Phase Counter - Contador de fase, usado para organizar a ordem das operações do 
 computador.  
   
-# O computador funciona usando duas fases:  
+### O computador funciona usando duas fases:  
 1- A instrução apontada pelo PC é carregada no IR.  
 2- A instrução no IR é decodificada pelo Control e executada, caso ela não mude 
 o PC, ele é incrementado.  
 
-# A decodificação da instrução é feita através de 10 flags:  
+### A decodificação da instrução é feita através de 10 flags:  
 * run - quando a instrução de encerramento do programa é encontrada, ela é desligada.  
 * select-pc - seleciona de onde vira a atualização do PC (incrementação ou inserção
 de um novo valor). Note que o PC sempre é atualizado.  
@@ -51,7 +51,7 @@ O módulo Control também determina o endereço (address) associado as instruç�
 das operações aritméticas, ele indica qual operação será feita (op). Ele foi implementado
 identificando padrões que englobam todas as intruções relevantes para uma determinada flag.  
 
-# Conjunto de instruções:
+### Conjunto de instruções:
 
 11 0x0B {LDA} XX    `[XX] -> Acc`  
 12 0x0C {STA} XX    `[Acc] -> XX`  
