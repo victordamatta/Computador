@@ -32,7 +32,7 @@ store-acc - habilita que a instrução escreva alguma coisa no acumulador.
 31 0x1F {INN} XX    `in > XX`  
 41 0x29 {PRN} XX    `[XX] > out`  
   
-50 0x32 {NOP}
+50 0x32 {NOP}  
 51 0x33 {JMP} XX    `[XX] -> PC`  
 52 0x34 {JLE} XX    `([Acc] <= 0): [XX] -> PC`  
 53 0x35 {JDZ} XX    `([Acc] != 0): [XX] -> PC`  
